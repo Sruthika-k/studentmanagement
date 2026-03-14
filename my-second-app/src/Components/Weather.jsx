@@ -17,7 +17,7 @@ function Weather() {
       setLoading(true);
 
       const response = await axios.get(
-        `http://localhost:8081/city/${city}`
+        `https://studentmanagement-k1d5.onrender.com/city/${city}`
       );
 
       setWeather(response.data);
